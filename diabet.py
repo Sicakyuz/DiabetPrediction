@@ -56,8 +56,7 @@ pd.set_option('display.width', None)
 pd.set_option('display.max_rows', 20)
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
-df = pd.read_csv("diabet.py")
-
+df = pd.read_csv("/Users/asmir/Desktop/MyProjects/DiabetPredicton/diabetes.csv", sep=',')
 
 # ### 2. **Exploratory Data Analysis (EDA):**
 #
